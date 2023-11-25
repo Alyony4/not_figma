@@ -7,6 +7,7 @@
 </head>
 
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="style.css">
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
@@ -30,112 +31,108 @@
 
 <body>
   
-  <h1>COSMETICS</h1>
-<header>
-  <div class="menu">
-    <ul class="menu__list">
-<li class="menu__item">
-  <a href="#" class="menu__item-link">Все продукты</a></li>
+  <header class="header">
 
-  <li class="menu__item">
-  <a href="#" class="menu__item-link">Уход</a></li>
+  <div class="name header__name">COSMETICS</div>
 
-  <li class="menu__item">
-  <a href="#" class="menu__item-link">Макияж</a></li>
+  <div class="menu header__menu">
+    <ul class="menu header__list">
+<li class="menu header__item">
+  <a href="#" class="menu header__item_link">Все продукты</a></li>
 
-  <li class="menu__item">
-  <a href="#" class="menu__item-link">О компании</a></li>
+  <li class="menu header__item">
+  <a href="#" class="menu header__item_link">Уход</a></li>
+
+  <li class="menu header__item">
+  <a href="#" class="menu header__item_link">Макияж</a></li>
+
+  <li class="menu header__item">
+  <a href="#" class="menu header__item_link">О компании</a></li>
     </ul>
   </div>
-  
-<div class="text">
-  <div class="text_p">
-<p>Born to way Eyshadow Palette</p>
 </div>
-<div class="text_p1">
-  <p>Выбери свои оттенки.</p>
-</div>
-</div>
-
-<button class="btn">Перейти</button>
-
-<div class="product">Любимые продукты</div>
-
-<div class="catalog">
-  <a href="#">Смотреть всё</a>
-</div>
-
-<div class="text__two">Красота, вдохновленная реальной жизнью.</div>  
-<div class="text__three">SOFT BEAUTY - это новый подход к красоте. <br> Это о свободе, заботе и любви к себе.
-  Мы создаем понятные продукты для поддержания вашего комфорта и красоты.</div>
- 
-  <button class="btn__two">Каталог</button>
 </header>
 
-<main>
-      <img src="img/photo_2023-11-11_16-34-00.jpg" alt="" class="image1">
+<section class="section1">
+<div class="image section1__image">
+  <img src="img/photo_2023-11-11_16-34-00.jpg" alt="" class="image section1__image1">
 
-      <video src="video/video_2023-11-14_18-36-12.mp4" autoplay muted class="video"></video>
-  
-      <img src="img/18.jpg" alt="" class="image2">
+  <img src="img/18.jpg" alt="" class="image section1__image2">
 
-      <img src="img/13.jpg" alt="" class="image3">
-</main>
+  <video src="video/video_2023-11-14_18-36-12.mp4" autoplay muted class="video section1__video"></video>
+</div>
+
+<div class="text section1__text">
+<p class="text section1__p1">Born to way<br>Eyshadow<br> Palette</p>
+
+<p class="text section1__p2">Выбери свои оттенки.</p>
+
+<button class="button section1__button">Перейти</button>
+</div>
+
+</section>
 
 <section class="cards">
-<div class="container container-card">
-  <div class="container__wrapper">
-    <div class="card">
-      <a href="#" class="card__img"><img src="img/1.jpg" alt=""></a>
-      <div class="card__title">Крем TRULE ORGANIC</div>
-     <div class="card__title1">Уход за лицом</div>
-      <div class="card__price">1999 руб.</div>
-      <button class="card__button">Добавить в корзину</button>
-    </div>
+
+ <p class="cards cards__product">Любимые продукты</p>
+
+  <div class="cards cards__catalog">
+    <a href="#">Смотреть всё</a>
   </div>
 
-  <div class="container__wrapper">
-    <div class="card">
-      <a href="#" class="card__img"><img src="img/12.jpg" alt=""></a>
-      <div class="card__title">SPA-средство RAWOUEST    </div>
-        <div class="card__title1">Уход за лицом</div>
-      <div class="card__price">2499 руб.</div>
-      <button class="card__button">Добавить в корзину</button>
+  <div class="container container__cards">
+    <div class="wrapper container__wrapper">
+      <div class="card container__card">
+        <a href="#" class="card__img"><img src="img/1.jpg" alt=""></a>
+        <div class="card__title">Крем TRULE ORGANIC</div>
+       <div class="card__title1">Уход за лицом</div>
+        <div class="card__price">1999 руб.</div>
+        <button class="card__button">Добавить в корзину</button>
+      </div>
     </div>
-  </div>
-
-  <div class="container__wrapper">
-    <div class="card">
-      <a href="#" class="card__img"><img src="img/6.jpg" alt=""></a>
-      <div class="card__title">Мицеллярная ALYA SKIN</div>
-        <div class="card__title1">Уход за лицом</div>
-      <div class="card__price">999 руб.</div>
-      <button class="card__button">Добавить в корзину</button>
+  
+    <div class="wrapper container__wrapper">
+      <div class="card container__card">
+        <a href="#" class="card__img"><img src="img/12.jpg" alt=""></a>
+        <div class="card__title">SPA-средство RAWOUEST    </div>
+          <div class="card__title1">Уход за лицом</div>
+        <div class="card__price">2499 руб.</div>
+        <button class="card__button">Добавить в корзину</button>
+      </div>
     </div>
-  </div>
-
-  <div class="container__wrapper">
-    <div class="card">
-      <a href="#" class="card__img"><img src="img/4.jpg" alt=""></a>
-      <div class="card__title">Сыворотка GLOSLER</div>
-        <div class="card__title1">Уход за лицом</div>
-      <div class="card__price">1999 руб.</div>
-      <button class="card__button">Добавить в корзину</button>
+  
+    <div class="wrapper container__wrapper">
+      <div class="card container__card">
+        <a href="#" class="card__img"><img src="img/6.jpg" alt=""></a>
+        <div class="card__title">Мицеллярная ALYA SKIN</div>
+          <div class="card__title1">Уход за лицом</div>
+        <div class="card__price">999 руб.</div>
+        <button class="card__button">Добавить в корзину</button>
+      </div>
     </div>
-  </div>
-
-  <div class="container__wrapper">
-    <div class="card">
-      <a href="#" class="card__img"><img src="img/2.jpg" alt=""></a>
-      <div class="card__title">Маска ALYA SKIN</div>
-        <div class="card__title1">Уход за лицом</div>
-      <div class="card__price">999 руб.</div>
-      <button class="card__button">Добавить в корзину</button>
+  
+    <div class="wrapper container__wrapper">
+      <div class="card container__card">
+        <a href="#" class="card__img"><img src="img/4.jpg" alt=""></a>
+        <div class="card__title">Сыворотка GLOSLER</div>
+          <div class="card__title1">Уход за лицом</div>
+        <div class="card__price">1999 руб.</div>
+        <button class="card__button">Добавить в корзину</button>
+      </div>
     </div>
+  
+    <div class="wrapper container__wrapper">
+      <div class="card container__card">
+        <a href="#" class="card__img"><img src="img/2.jpg" alt=""></a>
+        <div class="card__title">Маска ALYA SKIN</div>
+          <div class="card__title1">Уход за лицом</div>
+        <div class="card__price">999 руб.</div>
+        <button class="card__button">Добавить в корзину</button>
+      </div>
+    </div>
+  
   </div>
-
-</div>
-</section>
+  </section>
 
 </body>
 </html>
