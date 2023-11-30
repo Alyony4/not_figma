@@ -13,7 +13,7 @@ body {
   height: 83px;
   border-bottom: #9e9e9e solid 1px;
 }
-.header__menu{
+.header__nav{
 height: auto;
 display: flex;
 flex-direction: row;
