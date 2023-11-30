@@ -101,3 +101,14 @@
     border: #79553D solid 0.5px;
   }
 }
+@media screen and (min-width: 0px) and (mix-width: 1280px){
+  .header{
+    height: 50px;
+  }
+  .section1__p1{
+    font-size: 25px;
+  }
+  .section1__p2{
+    font-size: 13px;
+  }
+}
