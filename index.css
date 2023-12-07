@@ -45,6 +45,7 @@ max-width: 100%;
 }
 section{
   display: flex;
+  position: relative;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -64,7 +65,8 @@ section{
   padding-left: 30px;
 }
 .section1__image2{
-  display: flex;  
+  display: flex; 
+  position: relative; 
   align-self: flex-end;
   object-fit: contain;
   width: 30%;
@@ -73,6 +75,7 @@ section{
 }
 .section1__video{
   display: flex;
+  position: relative;
   max-width: 100%;
   width: 20vw;
   margin-left: -2vw;
@@ -118,6 +121,7 @@ section{
 }
 .cards {
   display: flex;
+  position: relative;
   flex-direction: column;
   margin-top: 80px;  
 }

@@ -203,104 +203,60 @@
 }
 @media screen and (max-width: 480px){
   .header{
-    height: 35px;
+    height: 50px;
 }
 .header__name{
-  font-size: 3vw;
+  font-size: 6vw;
 }
 .header__list{
   margin-top: 0;
 }
 .header__item{
-  font-size: 2.2vw;
-}
-.section1__image{
-  margin-top: 15px;
-}
-.section1__image1{
-  padding-left: 15px;
-}
-.section1__p1{
-  margin-top: 15vh;
-  font-size: 3.5vw;
-}
-.section1__p2{
-  font-size: 2.2vw;
-  margin-left: 55px;
-  padding-top: 3vh;
-}
-.section1__button{
-  width: 60px;
-  height: 60px;
-  margin-top: 3vh;
-  font-size: 11px;
-}
-.cards {
-  margin-top: 4vh;  
-}
-.container-cards {
-  justify-content: space-around;
-}
-.container__card {
-  width: 25vw;
-}
-.cards__style{
-  padding-bottom: 10px;
-}
-.cards__product{
-  font-size: 2.2vw;
-}
-.cards__catalog{
-  font-size: 2.2vw;
-}
-.card__title{
-  font-size: 2.5vw;
-}
-.card__title1{
-  font-size: 2.3vw;
-}
-.card__price {
-  font-size: 2.5vw;
-}
-.card__button {
-  font-size: 2.3vw;
-  height: 5vw;
-}
-}
-@media screen and (max-width: 320px){
-  .header{
-    height: 30px;
-}
-.header__name{
   font-size: 4vw;
 }
-.header__list{
-  margin-top: 0;
-}
-.header__item{
-  font-size: 3vw;
+section{
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
 }
 .section1__image{
-  margin-top: 15px;
+  margin-top: 5px;
+  flex-direction: column;
 }
 .section1__image1{
-  padding-left: 15px;
+  padding-left: 0;
+  width: 60%;
+}
+.section1__image2{
+  width: 60%;
+  margin-left: -11vw;
+  margin-top: -15%;
+}
+.section1__video{
+  width: 50%;
+  margin-top: -15%;
+}
+.section1__text{
+  position: absolute;
+  margin-left: 60%;
 }
 .section1__p1{
   margin-top: 7vh;
-  margin-left: 30px;
-  font-size: 3.5vw;
+  font-size: 7vw;
+  margin-left: 5px;
 }
 .section1__p2{
-  font-size: 2.7vw;
-  margin-left: 35px;
-  padding-top: 1vh;
+  font-size: 5vw;
+  margin-left: -115vw;
+  width: 80%;
+  margin-top: 18vh;
 }
 .section1__button{
-  width: 40px;
-  height: 40px;
-  margin-top: 2vh;
-  font-size: 8px;
+  width: 80px;
+  height: 80px;
+  margin-top: 20vh;
+  margin-left: -25vw;
+  font-size: 15px;
 }
 .cards {
   margin-top: 2vh;  
@@ -316,11 +272,9 @@
 }
 .cards__product{
   font-size: 2.2vw;
-  margin-left: 5vw;
 }
 .cards__catalog{
   font-size: 2.2vw;
-  margin-right: 5vw;
 }
 .card__title{
   font-size: 2.5vw;
@@ -336,5 +290,3 @@
   height: 5vw;
 }
 }
-
-
