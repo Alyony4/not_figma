@@ -6,11 +6,11 @@
 body {
   background: #fdf7f7;
   width: 100%;
-  height: 1000px;
+  height: auto;
 }
 .header{
   width: 100%;
-  height: 83px;
+  height: auto;
   border-bottom: #9e9e9e solid 1px;
 }
 .header__nav{
@@ -23,7 +23,7 @@ max-width: 100%;
 .header__name{
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 2.5vw;
   font-family: 'Libre Baskerville', serif;
   color: #79553D;
 }
@@ -36,18 +36,20 @@ max-width: 100%;
 }
 .header__item{
   display: flex;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: 'Roboto', sans-serif;
 }
 .header__item_link{
   color: #79553D;
   text-decoration: none;
 }
-section{
+.section1{
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: flex-start;
+  width: 100%;
+  height: auto;
 }
 .section1__image{
   display: flex;
@@ -62,7 +64,7 @@ section{
   object-fit: contain;
   max-width: 100%;
   width: 50%;
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .section1__image2{
   display: flex; 
@@ -91,7 +93,7 @@ section{
   display: flex;
   align-items: flex-start;
   margin-top: 100px;
-  font-size: 45px;
+  font-size: 4vw;
   font-family: 'Libre Baskerville', serif;
   color: #79553D;
   margin-left: 50px;
@@ -99,7 +101,7 @@ section{
 .section1__p2{
   display: flex;
   position: relative;
-  font-size: 18px;
+  font-size: 1.3vw;
   font-family: 'Roboto', sans-serif;
   color: #79553D;
   padding-top: 30px;
@@ -122,6 +124,8 @@ section{
 .cards {
   display: flex;
   position: relative;
+  width: 100%;
+  height: auto;
   flex-direction: column;
   margin-top: 80px;  
 }
@@ -133,7 +137,7 @@ section{
 }
 .cards__product{
   display: flex;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-family: 'Roboto', sans-serif;
   color: #492c19;
   margin-top: 0vh;
@@ -141,7 +145,7 @@ section{
 }
 .cards__catalog{
   display: flex;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-family: 'Roboto', sans-serif;
   color: #492c19;
   margin-top: 0vh;
@@ -154,7 +158,7 @@ section{
   width: 200px;
   padding-top: 15px;
   padding-bottom: 15px;
-  will-change: transform;
+  scroll-snap-align: start;
 }
 .card__title{
   margin-top: 15px;
@@ -174,7 +178,6 @@ section{
   width: 100%;
   height: 100%;
   display: block;
-  will-change: transform;
 }
 .card__price {
   margin-top: 5px;
@@ -202,6 +205,90 @@ section{
 .container-cards {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
   justify-content: space-around;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 30px;
+}
+.container__wrapper{
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 10px;
+}
+.article{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.article__text{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+.section1__p2_left-top{
+  margin-left: 50px;
+  font-size: 1.3vw;
+}
+.section1__button_left-top{
+  margin-top: 3%;
+  margin-left: 7%;
+}
+.article__image{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+}
+.article__image1{
+  display: flex;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  width: 60%;
+  float: right;
+  margin-top: 15px;
+}
+.section2{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.section2__text{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.section1__p1_center{
+  margin-top: 35px;
+  margin-left: 0;
+}
+.section1__p2_center{
+  font-size: 1.5vw;
+  padding-top: 0;
+  margin-left: 0;
+}
+.section3{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.section2__image{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 30px;
+  flex: 1;
+}
+.section2__image1{
+  display: flex;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  width: 30%;
+  margin-left: 35px;
 }
