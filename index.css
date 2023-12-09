@@ -292,3 +292,25 @@ max-width: 100%;
   width: 30%;
   margin-left: 35px;
 }
+.footer{
+  width: 100%;
+  height: auto;
+  border-top: #9e9e9e solid 1px;
+  margin-top: 35px;
+}
+.footer__links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer__links li{
+  display: flex;
+  float: inline-start;
+  font-size: 1.5vw;
+}
+.footer__link{
+  text-decoration: none;
+  color: #79553D;
+  font-family: 'Roboto', sans-serif;
+}
